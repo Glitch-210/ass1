@@ -1,9 +1,7 @@
-def fact(a):
-    if a == 1:
-        return 1
-    else:
-        return 
+def fact(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
 
-a = int(input('enter number: '))
-print(fact(a))
-#baki
+print(fact(5)) 
