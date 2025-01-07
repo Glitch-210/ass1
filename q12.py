@@ -7,4 +7,5 @@ li.pop(ind)
 print(li)
 li.reverse()
 print(li)
-#baki
+c=li.count(3)
+print(c)
