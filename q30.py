@@ -4,5 +4,6 @@ pattern = r'\d'
 print(re.findall(pattern, txt))
 pattern = r'\D'
 print(re.findall(pattern, txt))
-pattern = r''
+# c. Words, digits and special characters.
+pattern = r'\w'
 print(re.findall(pattern, txt))
